@@ -1,0 +1,14 @@
+CREATE TABLE public.endereco (
+	id serial4 NOT NULL,
+	cep varchar(10) NULL,
+	logradouro varchar(100) NULL,
+	complemento varchar(100) NULL,
+	bairro varchar(100) NULL,
+	localidade varchar(100) NULL,
+	uf varchar(2) NULL,
+	ibge varchar(10) NULL,
+	gia varchar(10) NULL,
+	ddd varchar(2) NULL,
+	siafi varchar(10) NULL,
+	CONSTRAINT endereco_pkey PRIMARY KEY (id)
+);
